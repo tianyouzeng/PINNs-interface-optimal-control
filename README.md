@@ -25,7 +25,7 @@ Each ".ipynb" file corresponds to one numerical example in the paper, and the na
 
 Simply run all the cells in the corresponding file to obtain the numerical results. The jupyter notebooks will also save the trained models together with the randomly generated training/testing dataset.
 
-The folder "env" contains a ".yml" file which lists the [conda](https://docs.conda.io/en/latest) environment where we performed the numerical experiments.
+The folder "env" contains an example [conda](https://docs.conda.io/en/latest) environment for running the code.
 
 ## Citation
 
