@@ -20,10 +20,12 @@ We recommend using [conda](https://docs.conda.io/en/latest) to manage the above 
 
 Each ".ipynb" file corresponds to one numerical example in the paper, and the name of the file suggests its functionality. For example:
 
-- [EX41_sPINN.ipynb](https://github.com/tianyouzeng/PINNs-interface-optimal-control/blob/main/EX41_sPINN.ipynb) is the source code for Example 4.1 with soft-constraint PINN method (Algorithm 1) in the [paper](https://arxiv.org/abs/2308.06709).
-- [EX52_hPINN.ipynb](https://github.com/tianyouzeng/PINNs-interface-optimal-control/blob/main/EX52_hPINN.ipynb) is the source code for Example 5.2 with hard-constraint PINN method (Algorithm 2, 3 or 4) in the [paper](https://arxiv.org/abs/2308.06709).
+- [example_01/example_01_sPINN.ipynb](https://github.com/tianyouzeng/PINNs-interface-optimal-control/blob/main/example_01/example_01_sPINN.ipynb) is the source code for Example 1 with soft-constraint PINN method (Algorithm 1) in the [paper](https://arxiv.org/abs/2308.06709).
+- [example_02/example_02_hPINN.ipynb](https://github.com/tianyouzeng/PINNs-interface-optimal-control/blob/main/example_02/example_02_hPINN.ipynb) is the source code for Example 2 with hard-constraint PINN method (Algorithm 2 Option I) in the [paper](https://arxiv.org/abs/2308.06709).
+- [example_01/example_01_hPINN_nn.ipynb](https://github.com/tianyouzeng/PINNs-interface-optimal-control/blob/main/example_01/example_01_hPINN_nn.ipynb) is the source code for Example 2 with hard-constraint PINN method and neural network-approximated auxiliary functions (Algorithm 2 Option II) in the [paper](https://arxiv.org/abs/2308.06709).
 
-Simply run all the cells in the corresponding file to obtain the numerical results. The jupyter notebooks will also save the trained models together with the randomly generated training/testing dataset.
+
+Simply run all the cells in the corresponding file to obtain the numerical results.
 
 The folder [env](https://github.com/tianyouzeng/PINNs-interface-optimal-control/tree/main/env) contains an example [conda](https://docs.conda.io/en/latest) environment for running the code.
 
